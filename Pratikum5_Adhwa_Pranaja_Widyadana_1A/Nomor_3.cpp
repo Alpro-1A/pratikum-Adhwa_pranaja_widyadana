@@ -1,14 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
-    int n, t1 = 0, t2 = 1, angkaselanjutnya = 0;
+int n, t1 = 0, t2 = 1, angkaselanjutnya = 0;
 
-    cout << "Masukkan jumlah suku: ";
-    cin >> n;
-
-    cout << "Deret Fibonacci: ";
+void fibonannci(){
+cout << "Deret Fibonacci: ";
 
     for (int i = 1; i <= n; ++i) //Loop ini berjalan sampai n.
 
@@ -29,9 +25,19 @@ int main()
         t1 = t2; //Memperbarui nilai t1.
         t2 = angkaselanjutnya; //Memperbarui nilai t2.
 
-        cout << angkaselanjutnya << " , ";  //Ini mencetak suku berikutnya.
-
+        cout << angkaselanjutnya << ", ";  //Ini mencetak suku berikutnya.
     }
-    return 0;
 }
+
+
+
+int main()
+{
+    cout << "Masukkan jumlah suku: ";
+    cin >> n;
+    fibonannci();
+
+
+}
+
 

@@ -1,10 +1,7 @@
 #include<iostream>
 using namespace std;
-
-
-int main()
-{
-    int n;
+void menghitungTinggi (){
+int n;
     cout << "\nMasukkan tinggi segitiga: ";
     cin >> n;
     for(int i = 1; i <= n; i++)
@@ -22,3 +19,11 @@ int main()
         cout << endl;
     }
 }
+
+
+int main()
+{
+menghitungTinggi();
+    return 0;
+}
+
