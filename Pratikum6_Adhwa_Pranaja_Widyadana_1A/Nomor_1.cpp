@@ -19,6 +19,9 @@ int main() {
     int ukuranArray = 5;
     int arr[ukuranArray];
 
+    cout << "--------------------------------------"<<endl;
+    cout << "       Mencari Nilai Tertinggi        "<<endl;
+    cout << "--------------------------------------"<<endl;
     // Mengisi array dengan nilai dari user
     cout << "Masukkan elemen-elemen array:" << endl;
     for (int i = 0; i < ukuranArray; ++i) {
