@@ -19,7 +19,7 @@ int main() {
     int ukuranArray = 5;
     int arr[ukuranArray];
 
-    // Mengisi array dengan nilai dari pengguna
+    // Mengisi array dengan nilai dari user
     cout << "Masukkan elemen-elemen array:" << endl;
     for (int i = 0; i < ukuranArray; ++i) {
         cout << "Indeks ke-" << i << ": ";
